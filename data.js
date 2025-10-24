@@ -8,7 +8,7 @@ export const blogData=[
    {
         date:"JULY 23, 2022",
         topic:"Blog one",
-        content: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.",
+        content: "I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.",
         image: "blog-one.png"
     },
     {
