@@ -2,9 +2,11 @@ import { introData, blogData } from "./data.js";
 
 function renderIntro(){
     document.getElementById("intro").innerHTML = `
-    <p>${introData.date}</p>
-    <h2>${introData.topic}</h2>
-    <p>${introData.content}</p>
+    <div class="container">
+        <p class="date">${introData.date}</p>
+        <h2>${introData.topic}</h2>
+        <p>${introData.content}</p>
+    </div>
     `;
 }
 
@@ -15,11 +17,11 @@ function renderBlogs(){
 
 function getBlogsHtml(){
     return blogData.map(blog => `
-        <div>
-            <img src="./images/${blog.image}">
-            <p>${blog.date}</p>
-            <h2>${blog.topic}</h2>
-            <p>${blog.content}</p>
+        <div class="container">
+            <img src="./images/${blog.image}" class="blog-img">
+            <p class="date">${blog.date}</p>
+            <h2 class="topic">${blog.topic}</h2>
+            <p class="content">${blog.content}</p>
         </div>
         `).join('');
 }

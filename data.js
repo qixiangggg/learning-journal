@@ -7,7 +7,7 @@ export const introData={
 export const blogData=[
    {
         date:"JULY 23, 2022",
-        topic:"My new journey as a bootcamp student.",
+        topic:"Blog one",
         content: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.",
         image: "blog-one.png"
     },
