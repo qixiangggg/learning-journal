@@ -1,0 +1,118 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    color: #0E0E0E;
+    font-size: 16px;
+}
+
+.container{
+    margin: 0 1.25em;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 0.3125em;
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.header img{
+    height: 6vh;
+}
+
+.header h1{
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+nav{
+    margin-left: auto;
+}
+
+nav ul{
+    display: flex;
+    gap: 2.5em;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.aboutme-header img{
+    width: 50%;
+}
+
+.aboutme-header h1{
+    font-size: 2.19rem;
+    font-weight: 700;
+}
+
+.sub-title, .recent-posts{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.paragraph{
+    margin: 1.75em 0 1.69em;
+}
+
+.recent-posts{
+    color: #000000;
+    text-align: center;
+    margin-top: 3.125em;
+    margin-bottom: 1.69em;
+}
+
+.blog-img{
+    width: 100%;
+}
+
+.date{
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.blogs{
+    display: grid;
+    gap: 2.5em;
+}
+.topic{
+    font-size: 1.5em;
+    margin: 0.56em 0;
+}
+
+.content{
+    color:#505050;
+    margin:0;
+}
+
+footer{
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3.125em 0;
+    margin-top: 3.5em;
+}
+
+.title{
+    color: #ECECEC;
+    margin: 0;
+}
+
+.copyright{
+    color: #D7D7D7;
+    margin: 0;
+}
