@@ -11,12 +11,13 @@ body {
     margin: 0 1.25em;
 }
 
-.header{
+.header .container{
     display: flex;
     align-items: center;
     gap: 0.3125em;
     font-size: 0.875rem;
     font-family: "Roboto", sans-serif;
+     padding: 1em 0;
 }
 
 .header img{
@@ -92,6 +93,8 @@ a{
 
 .blog-img{
     width: 100%;
+    height: 50vh;
+    object-fit: cover;
 }
 
 .date{
@@ -130,4 +133,31 @@ footer{
 .copyright{
     color: #D7D7D7;
     margin: 0;
+}
+
+.hide{
+    display: none;
+}
+
+@media(min-width:1085px){
+    body{
+        background-color: #FAFAFA;
+    }
+    
+    .header{
+        background-color: #FFFFFF;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+   .article-header,.article-content{
+        margin: 2.5em;
+    }
+    
+    .article-img{
+        background-position: 50% 70%;
+        height: 100vh;
+    }
 }

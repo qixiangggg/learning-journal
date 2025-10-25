@@ -5,18 +5,20 @@ body {
     font-family: "Source Sans 3", sans-serif;
     color: #0E0E0E;
     font-size: 16px;
+    
 }
 
 .container{
     margin: 0 1.25em;
 }
 
-.header{
+.header .container{
     display: flex;
     align-items: center;
     gap: 0.3125em;
     font-size: 0.875rem;
     font-family: "Roboto", sans-serif;
+    padding: 1em 0;
 }
 
 .header img{
@@ -50,13 +52,20 @@ a{
     cursor: pointer;
 }
 
+.aboutme-header{
+    margin: 1.625em 0;
+}
 .aboutme-header img{
-    width: 50%;
+    width: 35%;
 }
 
 .aboutme-header h1{
     font-size: 2.19rem;
     font-weight: 700;
+}
+
+.aboutme-content{
+    margin-top: 3.125em;
 }
 
 .sub-title, .recent-posts{
@@ -77,6 +86,8 @@ a{
 
 .blog-img{
     width: 100%;
+    height: 50vh;
+    object-fit: cover;
 }
 
 .date{
@@ -115,4 +126,41 @@ footer{
 .copyright{
     color: #D7D7D7;
     margin: 0;
+}
+
+.hide{
+    display: none;
+}
+
+@media(min-width:1085px){
+    
+    body{
+        background-color: #FAFAFA;
+    }
+    
+    .header{
+        background-color: #FFFFFF;
+    }
+    
+    .aboutme-header{
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+    
+    .aboutme-header{
+        margin-top: 5.625em;
+    }
+    .aboutme-header img{
+        width: 20%;
+    }
+    
+    .aboutme-content{
+        margin: 6.25em 7.5em 0;
+    }
+    
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
 }

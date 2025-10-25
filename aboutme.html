@@ -5,26 +5,31 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <header class="container header">
-            <img src="./images/logo.png">
-            <h1>My learning journal</h1>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">home</a></li>
-                    <li><a href="#">about me</a></li>
-                </ul>
-            </nav>
+        <header class="header">
+            <div class="container">
+                <img src="./images/logo.png">
+                <h1>My learning journal</h1>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html" class="navigation">home</a></li>
+                        <li><a href="./aboutme.html" class="navigation">about me</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main class="container article">
             <section>
                 <header class="aboutme-header">
                     <img src="./images/avatar.png">
-                    <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
-                    <p class="aboutme-description">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                    <div>
+                        <h1>Hi there! My name is Roku and welcome to my learning journal.</h1>
+                        <p class="aboutme-description">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                    <div>
                 </header>
-                <div class="content">
+                <div class="aboutme-content">
                     <h3 class="sub-title">How I stay committed to learning</h3>
                     <p class="paragraph">I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
                     <p class="paragraph">While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p>
